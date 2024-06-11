@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/D_News"
+        android:icon="@drawable/baseline_home_24"
+        android:title="News" />
+    <item
+        android:id="@+id/D_Memes"
+        android:icon="@drawable/baseline_tag_faces_24"
+        android:title="Memes" />
+    <item
+        android:id="@+id/D_Contect"
+        android:icon="@drawable/c_person"
+        android:title="Contact" />
+    <item
+        android:id="@+id/D_profile"
+        android:icon="@drawable/m"
+        android:title="multiple" />
+    <item
+        android:id="@+id/D_share"
+        android:icon="@drawable/baseline_share_24"
+        android:title="share" />
+  <item
+        android:id="@+id/D_Ratting"
+        android:icon="@drawable/baseline_star_rate_24"
+        android:title="Ratting" />
+
+
+</menu>

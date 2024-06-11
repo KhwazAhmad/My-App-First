@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/News"
+        android:icon="@drawable/baseline_home_24"
+        android:title="News" />
+    <item
+        android:id="@+id/Memes"
+        android:icon="@drawable/baseline_tag_faces_24"
+        android:title="Memes" />
+    <item
+        android:id="@+id/Contact"
+        android:icon="@drawable/c_person"
+        android:title="Contact" />
+    <item
+        android:id="@+id/Bprofile"
+        android:icon="@drawable/m"
+        android:title="Multiple" />
+</menu>

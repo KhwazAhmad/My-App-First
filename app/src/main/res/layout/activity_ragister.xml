@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black"
+        android:layout_height="match_parent"
+        tools:context=".Login">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:id="@+id/logo"
+            android:layout_marginTop="20sp"
+            android:src="@drawable/news"
+            android:padding="10sp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            />
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/user"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:text="Welcome our "
+                android:textColor="#04B3DF"
+                android:fontFamily="serif"
+                android:layout_marginTop="20sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:text="Ragistration"
+                android:textColor="#6DC607"
+                android:fontFamily="serif"
+                android:layout_marginTop="20sp"
+                /> <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:text="Screen"
+            android:textColor="#04B3DF"
+            android:fontFamily="serif"
+            android:layout_marginTop="20sp"
+            />
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            app:startIconDrawable="@drawable/baseline_person_24"
+            android:layout_marginTop="20sp"
+            android:padding="20sp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/r_name"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:startIconDrawable="@drawable/baseline_local_phone_24"
+            android:padding="20sp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/r_phone"
+                android:hint="Enter Phone No"
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>   <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:startIconDrawable="@drawable/baseline_email_24"
+            android:padding="20sp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/r_email"
+                android:hint="Enter email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>   <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+  app:passwordToggleEnabled="true"
+
+            app:startIconDrawable="@drawable/baseline_security_24"
+            android:padding="20sp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/r_pass"
+                android:hint="password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:textAllCaps="false"
+            android:padding="20sp"
+            android:textStyle="bold"
+            android:text="Ragistration"
+            android:textColor="@color/black"
+            android:background="@drawable/buton"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/ragister"/>
+    </LinearLayout>
+</layout>
